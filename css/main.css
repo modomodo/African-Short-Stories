@@ -1,0 +1,138 @@
+/***************
+ GENERAL STYLES
+***************/
+
+body {
+	font-family: 'Open Sans' sans-serif;
+	background: #FF8200;
+	margin: 10px 0;
+}
+
+section{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/** ANCHOR LINK PROPERTIES **/
+a{
+    text-decoration: none;
+}
+
+/***************
+ HEADING STYLES
+****************/
+
+header {
+	border-color: #FFC857;
+	margin: 20px 0 40px 0;
+	text-align: center;
+	padding: 5px 0;
+	width: 100%;
+}
+
+.logo{
+	font-family: 'Berkshire Swash', cursive;
+	margin: 10px auto;
+	padding-bottom: 50px;
+	font-size: 48px;
+	max-width: 600px;
+	line-height: 50px;
+}
+
+ul{
+	font-size: 1.5em;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+/** INDEX LINK COLOURS **/
+ul a, ul a:visited{
+	color: white;
+}
+
+/** HOVER LINK COLOURS **/
+ul a:hover{
+    color: black;
+}
+
+/******************
+ NAVIGATION STYLES
+******************/
+
+nav ul{
+  list-style: none;
+  margin: 10px auto;
+  padding: 0;
+}
+
+/** NAV COLOURS **/
+nav a, nav a:visited{
+    color: #fff;
+}
+
+/** INDEX SELECTED AND HOVER LINK COLOURS **/
+nav a.selected, nav a:hover{
+	color: black;
+}
+
+/** DROPDOWN IMPLEMENTATION **/
+.dropdown{
+	position: relative;
+}
+
+/** DROPDOWN ICON ON PSEUDO ELEMENT AFTER **/
+.dropdown::after{
+	content: "\25BC";
+	font-size: .5em;
+	display: block;
+	color: white;
+	position: absolute;
+	top: 38%;
+	right: 45%;
+}
+
+.drop-nav{
+	position: absolute;
+	display: none;
+	right: 1%;
+	text-align: center;
+	background: darkgrey;
+}
+
+.drop-nav li{
+	border-bottom: 1px solid white;
+	background: #006992;
+
+}
+
+/** ON PSEUDO ELEMENT HOVER MAKE CHILD CLASS VISIBLE **/
+.dropdown:hover{} > .drop-nav{
+	display: block;
+}
+
+/** ************
+ ARTICLE STYLES
+****************/
+
+article header{
+	background: black;
+	color: #FF8200;
+	font-family: 'Alegreya Sans', sans-serif;
+	margin: 10px auto;
+}
+
+/*******
+ FOOTER
+********/
+
+footer{
+	font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
