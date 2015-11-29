@@ -59,6 +59,14 @@ ul a:hover{
     color: black;
 }
 
+/** INDEX HOME PAGE LINK PROPERTIES **/
+li.home{
+	margin: 15px 15px;
+  background: #006992;
+	box-shadow: 1px 1px 2px darkblue;
+	border-radius: 15px;
+}
+
 /******************
  NAVIGATION STYLES
 ******************/
@@ -98,7 +106,6 @@ nav a.selected, nav a:hover{
 .drop-nav{
 	position: absolute;
 	display: none;
-	right: 1%;
 	text-align: center;
 	background: darkgrey;
 }
@@ -110,7 +117,7 @@ nav a.selected, nav a:hover{
 }
 
 /** ON PSEUDO ELEMENT HOVER MAKE CHILD CLASS VISIBLE **/
-.dropdown:hover{} > .drop-nav{
+.dropdown:hover > .drop-nav{
 	display: block;
 }
 
