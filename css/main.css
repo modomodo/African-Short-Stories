@@ -92,6 +92,12 @@ nav a.selected, nav a:hover{
 /** DROPDOWN IMPLEMENTATION **/
 .dropdown{
 	position: relative;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 2%;
+	background: #006992;
+	box-shadow: 1px 1px 2px darkblue;
+	border-radius: 15px;
 }
 
 /** DROPDOWN ICON ON PSEUDO ELEMENT AFTER **/
@@ -109,7 +115,9 @@ nav a.selected, nav a:hover{
 	position: absolute;
 	display: none;
 	text-align: center;
-	background: darkgrey;
+	background: #006992;
+	box-shadow: 1px 1px 2px darkblue;
+	border-radius: 15px;
 }
 
 .drop-nav li{
