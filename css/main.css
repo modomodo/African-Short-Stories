@@ -33,11 +33,13 @@ header {
 
 .logo{
 	font-family: 'Berkshire Swash', cursive;
+	color: #1B1B1E;
 	margin: 10px auto;
 	padding-bottom: 50px;
 	font-size: 48px;
 	max-width: 600px;
 	line-height: 50px;
+	text-shadow: -1px -2px 2px black;
 }
 
 ul{
